@@ -270,6 +270,8 @@
 
  /* Герой секція */
 .hero {
+  min-height: 100vh;
+  min-height: 100dvh; /* Нова одиниця для мобільних пристроїв */
   display: flex;
   align-items: center;
   position: relative;
