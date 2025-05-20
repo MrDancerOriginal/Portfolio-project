@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Денис Креатив | Портфоліо</title>
+  <!-- Підключення CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="shortcut icon" href="assets/images/android-chrome-192x192.png" type="image/x-icon">
+</head>
+
+<body>
+  <!-- Хедер -->
+  <header id="header">
+    <div class="container header-container">
+      <a href="#" class="logo">Денис<span>.</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#home">Головна</a></li>
+          <li><a href="#about">Про мене</a></li>
+          <li><a href="#portfolio">Портфоліо</a></li>
+          <li><a href="#github">GitHub</a></li>
+          <li><a href="#testimonials">Відгуки</a></li>
+          <li><a href="#contact">Контакти</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Герой секція -->
+  <section class="hero" id="home">
+    <!-- <div class="hero-video">
+        <video autoplay muted loop id="bg-video">
+          <source src="assets/videos/Avery Davis.mp4" type="video/mp4" />
+          Ваш браузер не підтримує відео.
+        </video>
+      </div> -->
+    <div class="container">
+      <div class="hero-content-wrapper" data-aos="fade-up">
+        <div class="hero-photo">
+          <img src="assets/images/me-main3.png" alt="Денис" />
+        </div>
+        <div class="hero-text">
+          <h1>Привіт, я <span class="orange-gradient">Денис</span></h1>
+          <p>
+            Креативний тьютор, розробник та оратор з харизмою та пристрастю
+            до створення незабутнього контенту.
+          </p>
+          <div class="hero-btns">
+            <a href="#portfolio" class="btn btn-primary">Мої роботи</a>
+            <a href="#contact" class="btn btn-outline">Зв'язатися</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="scroll-down">
+      <i class="fas fa-chevron-down"></i>
+    </a>
+  </section>
+
+  <!-- Про мене -->
+  <section class="about" id="about">
+    <div class="container about-container">
+      <div class="about-photo" data-aos="fade-right">
+        <img src="assets/images/me.jpg" alt="Денис" class="about-img" />
+      </div>
+      <div class="about-text" data-aos="fade-left">
+        <h2>Про <span class="orange">мене</span></h2>
+        <p>
+          Я спеціалізуюсь у створенні відеоконтенту, веброзробці та публічних
+          виступах. Моя ціль - інспірувати та навчати через творчість та
+          технології.
+        </p>
+
+        <div class="skills">
+          <span class="skill">Відеозйомка</span>
+          <span class="skill">Монтаж</span>
+          <span class="skill">Веброзробка</span>
+          <span class="skill">Публічні виступи</span>
+          <span class="skill">Навчання</span>
+          <span class="skill">Креативність</span>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="margin-top: 30px">Запросити на проект</a>
+        <br />
+        <a href="assets/files/Resume.pdf" class="btn btn-primary" style="margin-top: 10px">Резюме</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Портфоліо-->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <h2 data-aos="fade-down">Моє <span class="orange">портфоліо</span></h2>
+      <br />
+      <h3 class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+        Останні відео, якими я пишаюся
+      </h3>
+
+      <div class="portfolio-grid">
+        <!-- Промо відео -->
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Промо Python.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Промо відео</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Промо Роблокс.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Промо відео</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Я працюю в ІТ.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Жарт-відео : Я працюю в ІТ</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Промо Java.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Промо відео</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Скажи і біжи(916).mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Скажи й біжи</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+
+        <div class="portfolio-item" data-aos="zoom-in">
+          <video class="portfolio-video" muted loop>
+            <source src="assets/videos/Промо Web-програмування.mp4" type="video/mp4" />
+            Ваш браузер не підтримує відео.
+          </video>
+          <div class="portfolio-overlay">
+            <h3>Промо відео</h3>
+            <p>Клієнт: Young Coder School</p>
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <h3 class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+        Веб-додатки
+      </h3>
+
+      <div class="portfolio-grid portfolio-grid-web">
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-media">
+            <video class="portfolio-video" muted loop>
+              <source src="assets/videos/web-projects/project3.mp4" type="video/mp4" />
+              Ваш браузер не підтримує відео.
+            </video>
+            <div class="portfolio-overlay">
+              <i class="fas fa-play"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Dating App</h3>
+            <p>
+              Практичний приклад курсу udemy про те, як створити програму за допомогою ASP.NET Core API та Angular від
+              початку до кінця
+            </p>
+            <a href="https://github.com/MrDancerOriginal/DatingApp" target="_blank" class="project-link-btn">
+              <i class="fas fa-external-link-alt"></i> Перейти до проекту
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-media">
+            <video class="portfolio-video" muted loop>
+              <source src="assets/videos/web-projects/project1.mkv" type="video/mp4" />
+              Ваш браузер не підтримує відео.
+            </video>
+            <div class="portfolio-overlay">
+              <i class="fas fa-play"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AutoQuiz</h3>
+            <p>
+              Вбудований штучний інтелект, який генерує тест на основі pdf
+              файлу.
+            </p>
+            <a href="https://github.com/MrDancerOriginal/Hackathon" target="_blank" class="project-link-btn">
+              <i class="fas fa-external-link-alt"></i> Перейти до проекту
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in">
+          <div class="project-media">
+            <video class="portfolio-video" muted loop>
+              <source src="assets/videos/web-projects/project2.mp4" type="video/mp4" />
+              Ваш браузер не підтримує відео.
+            </video>
+            <div class="portfolio-overlay">
+              <i class="fas fa-play"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>AdoptMe</h3>
+            <p>
+              Тестовий проєкт для Хакатон 2025 BEST::HACKath0n
+            </p>
+            <a href="https://github.com/MrDancerOriginal/Hackathon2025" target="_blank" class="project-link-btn">
+              <i class="fas fa-external-link-alt"></i> Перейти до проекту
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+          <div class="project-media">
+            <img src="assets/videos/web-projects/project4.jpg" alt="Веб проект" class="portfolio-img" />
+            <div class="portfolio-overlay">
+              <a href="https://github.com/MrDancerOriginal/RetailManager" target="_blank" class="project-link-overlay">
+                <i class="fas fa-external-link-alt"></i>
+              </a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Retail Manager</h3>
+            <p>Це з курсу від TimCore, де будуються всі частини проєкту разом. Практика розробки додатків реального світі.</p>
+            <a href="https://github.com/MrDancerOriginal/RetailManager" target="_blank" class="project-link-btn">
+              <i class="fas fa-external-link-alt"></i> Перейти до проекту
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Модальне вікно -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeVideoModal()">×</span>
+        <video id="modalVideo" controls>
+          Ваш браузер не підтримує відео.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- Демонстрація уроку -->
+<section class="teaching-demo" id="teaching">
+  <div class="container">
+    <h2 data-aos="fade-down">Як я <span class="orange">навчаю</span></h2>
+    <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+      Демонстрація мого стилю викладання
+    </p>
+
+    <div class="demo-container" data-aos="zoom-in">
+      <div class="demo-video">
+        <div class="video-wrapper">
+          <iframe 
+            src="https://www.youtube.com/embed/AAjgqU9f5Yk?si=jupAGeHIckw9lHpA" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <div class="demo-description">
+        <h3>Фрагмент мого уроку з програмування</h3>
+        <p>
+          У цьому відео ви можете побачити мій стиль викладання, який
+          поєднує:
+        </p>
+        <ul class="teaching-features">
+          <li>
+            <i class="fas fa-check-circle"></i> Викладання англійською мовою
+          </li>
+          <li><i class="fas fa-check-circle"></i> Практичні приклади</li>
+          <li><i class="fas fa-check-circle"></i> Динамічність</li>
+          <li>
+            <i class="fas fa-check-circle"></i> Візуалізація абстрактних ідей
+          </li>
+        </ul>
+        <a href="#contact" class="btn btn-primary">Записатись на урок</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- GitHub -->
+  <section class="github" id="github">
+    <div class="container">
+      <h2 data-aos="fade-down">Мій <span class="orange">GitHub</span></h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+        Мої останні проекти у світі коду
+      </p>
+
+      <div class="github-stats">
+        <div class="stat" data-aos="fade-up">
+          <i class="fab fa-github"></i>
+          <h3 id="repos">24</h3>
+          <p>Репозиторіїв</p>
+        </div>
+        <div class="stat" data-aos="fade-up" data-aos-delay="300">
+          <i class="fas fa-users"></i>
+          <h3 id="followers">18</h3>
+          <p>Підписників</p>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 50px" data-aos="fade-up">
+        <a href="https://github.com/MrDancerOriginal" target="_blank" class="btn btn-primary">
+          <i class="fab fa-github"></i> Переглянути GitHub
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Відгуки -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <h2 data-aos="fade-down">Відгуки <span class="orange">клієнтів</span></h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+        Що кажуть про мою роботу
+      </p>
+
+      <div class="testimonials-gallery" data-aos="zoom-in">
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Контакти -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2 data-aos="fade-down">
+        Зв'язатися <span class="orange">зі мною</span>
+      </h2>
+      <p class="section-subtitle" data-aos="fade-down" data-aos-delay="100">
+        Готовий до співпраці та нових проектів
+      </p>
+
+      <!-- Перемикач -->
+      <div class="contact-toggle" data-aos="fade-down" data-aos-delay="150">
+        <button class="toggle-btn active" data-target="form">Написати повідомлення</button>
+        <button class="toggle-btn" data-target="contacts">Показати контакти</button>
+      </div>
+
+      <!-- Обгортка для блоків -->
+      <div class="contact-content-wrapper">
+        <!-- Форма -->
+        <div class="contact-content active" id="formSection">
+          <form id="contactForm" class="contact-form" action="https://formspree.io/f/mwpozbna" method="POST">
+            <input type="hidden" name="_subject" value="Нове повідомлення з сайту">
+            <input type="text" name="_gotcha" style="display:none">
+
+            <div class="form-group">
+              <input type="text" name="name" class="form-control" placeholder="Ваше ім'я" required>
+            </div>
+            <div class="form-group">
+              <input type="email" name="email" class="form-control" placeholder="Ваш email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" name="subject" class="form-control" placeholder="Тема">
+            </div>
+            <div class="form-group">
+              <textarea name="message" class="form-control" placeholder="Ваше повідомлення" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary submit-btn">
+              <span class="btn-text">Надіслати</span>
+              <i class="fas fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+
+        <!-- Контакти -->
+        <div class="contact-content" id="contactsSection">
+          <div class="contact-details" data-aos="zoom-in">
+            <div class="contact-card">
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-phone-alt"></i>
+                </div>
+                <div class="contact-info">
+                  <h4>Телефон</h4>
+                  <a href="tel:+380XXXXXXXXX">(+380) 933 348 797</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                  <h4>Email</h4>
+                  <a href="mailto:deniskuksin1@gmail.com">deniskuksin1@gmail.com</a>
+                </div>
+              </div>
+
+              <div class="contact-item">
+                <div class="contact-icon">
+                  <i class="fas fa-briefcase"></i>
+                </div>
+                <div class="contact-info">
+                  <h4>Work.ua</h4>
+                  <a href="https://www.work.ua/resumes/9293618/" target="_blank">Моє резюме</a>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Футер -->
+  <footer>
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/denys-kuksin-6146b6221/?originalSubdomain=ua" class="social-link"><i
+          class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/MrDancerOriginal" class="social-link"><i class="fab fa-github"></i></a>
+    </div>
+  </footer>
+
+  <!-- Перемикач теми -->
+  <div class="theme-switch" id="themeSwitch">
+    <i class="fas fa-sun"></i>
+  </div>
+
+  <!-- Підключення JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="script.js"></script>
+  <script src="email.js"></script>
+  <script src="feedbacks.js"></script>
+</body>
+
+</html>
