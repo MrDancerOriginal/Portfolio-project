@@ -31,12 +31,13 @@
 
 
   .light-mode {
-    --dark: #f7f7f7;
-    --dark-light: #e0e0e0;
-    --light: #121212;
-    --gray: #555;
-    --background-scrolled: rgba(219, 219, 219, 0.9);
-    --orange:#FFA726;
+    --dark: #ffffff;
+    --dark-light: #f8f9fa;
+    --light: #1e1e2f;
+    --gray: #5e6e82;
+    --background-scrolled: rgba(255, 255, 255, 0.85);
+    --orange: #e67e22;
+    --orange-light: #f39c12;
   }
 
   .light-mode .hero::before{
@@ -276,7 +277,7 @@
   align-items: center;
   position: relative;
   overflow: hidden;
-  background: linear-gradient(to right, rgba(18, 18, 18, 0.9), rgba(18, 18, 18, 0.6));
+  background: linear-gradient(to right, rgba(238, 238, 238, 0.9rgba(218, 218, 218, 0.6).6));
   padding: 20px 0;
 }
 

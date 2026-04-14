@@ -10,6 +10,7 @@ const translations = {
 
     // Герой
     hero_greeting: "Привіт, я",
+    hero_name:"Денис",
     hero_subtitle: "Креативний тьютор, розробник та оратор з харизмою та пристрастю до створення незабутнього контенту.",
     hero_btn_works: "Мої роботи",
     hero_btn_contact: "Зв'язатися",
@@ -98,6 +99,7 @@ const translations = {
     nav_contact: "Contact",
 
     hero_greeting: "Hi, I'm",
+    hero_name:"Denys",
     hero_subtitle: "Creative tutor, developer and speaker with charisma and a passion for creating unforgettable content.",
     hero_btn_works: "My works",
     hero_btn_contact: "Get in touch",
@@ -179,6 +181,7 @@ const translations = {
     nav_contact: "Kontakt",
 
     hero_greeting: "Hallo, ich bin",
+    hero_name:"Denis",
     hero_subtitle: "Kreativer Tutor, Entwickler und Redner mit Charisma und Leidenschaft für unvergessliche Inhalte.",
     hero_btn_works: "Meine Arbeiten",
     hero_btn_contact: "Kontaktieren",
