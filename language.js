@@ -10,7 +10,7 @@ const translations = {
 
     // Герой
     hero_greeting: "Привіт, я",
-    hero_name:"Денис",
+    hero_name: "Денис",
     hero_subtitle: "Креативний тьютор, розробник та оратор з харизмою та пристрастю до створення незабутнього контенту.",
     hero_btn_works: "Мої роботи",
     hero_btn_contact: "Зв'язатися",
@@ -21,6 +21,13 @@ const translations = {
     about_text: "Я спеціалізуюсь у створенні відеоконтенту, веброзробці та публічних виступах. Моя ціль — інспірувати та навчати через творчість та технології.",
     about_btn_invite: "Запросити на проект",
     about_btn_resume: "Резюме",
+
+    skill_video: "Відеозйомка",
+    skill_editing: "Монтаж",
+    skill_web: "Веброзробка",
+    skill_speaking: "Публічні виступи",
+    skill_teaching: "Навчання",
+    skill_creativity: "Креативність",
 
     // Портфоліо
     portfolio_title: "Моє",
@@ -99,7 +106,7 @@ const translations = {
     nav_contact: "Contact",
 
     hero_greeting: "Hi, I'm",
-    hero_name:"Denys",
+    hero_name: "Denys",
     hero_subtitle: "Creative tutor, developer and speaker with charisma and a passion for creating unforgettable content.",
     hero_btn_works: "My works",
     hero_btn_contact: "Get in touch",
@@ -109,6 +116,13 @@ const translations = {
     about_text: "I specialize in video content creation, web development and public speaking. My goal is to inspire and teach through creativity and technology.",
     about_btn_invite: "Invite to a project",
     about_btn_resume: "Resume",
+
+    skill_video: "Video Production",
+    skill_editing: "Editing",
+    skill_web: "Web Development",
+    skill_speaking: "Public Speaking",
+    skill_teaching: "Teaching",
+    skill_creativity: "Creativity",
 
     portfolio_title: "My",
     portfolio_title_span: "portfolio",
@@ -181,7 +195,7 @@ const translations = {
     nav_contact: "Kontakt",
 
     hero_greeting: "Hallo, ich bin",
-    hero_name:"Denis",
+    hero_name: "Denis",
     hero_subtitle: "Kreativer Tutor, Entwickler und Redner mit Charisma und Leidenschaft für unvergessliche Inhalte.",
     hero_btn_works: "Meine Arbeiten",
     hero_btn_contact: "Kontaktieren",
@@ -191,6 +205,13 @@ const translations = {
     about_text: "Ich bin spezialisiert auf Videoerstellung, Webentwicklung und öffentliches Reden. Mein Ziel ist es, durch Kreativität und Technologie zu inspirieren und zu lehren.",
     about_btn_invite: "Zum Projekt einladen",
     about_btn_resume: "Lebenslauf",
+
+    skill_video: "Videoproduktion",
+    skill_editing: "Videobearbeitung",
+    skill_web: "Webentwicklung",
+    skill_speaking: "Öffentliches Reden",
+    skill_teaching: "Unterrichten",
+    skill_creativity: "Kreativität",
 
     portfolio_title: "Mein",
     portfolio_title_span: "Portfolio",
